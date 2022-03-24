@@ -252,6 +252,12 @@ nav {
 	width: 400px;
 	float: right;
 }
+.bg-light{
+	background-color: #62A8DC !important;
+}
+.lt-space a {
+	color: #ffffff;
+}
 /*========================================== 2.COMMON CSS END ===========================================*/
 
 /*================================================= 3.NAVIGATION START ==============================================*/
@@ -314,7 +320,7 @@ nav {
 	font-size: 17px;
 	vertical-align: middle;
 	padding-right: 10px;
-	color: #3e4e52;
+	color: #ffffff;
 }
 .content-style {
 	padding: 10px 0px;
@@ -342,7 +348,7 @@ nav {
 .pre-navbar .fa-clock-o,
 .pre-navbar .fa-envelope,
 .pre-navbar .fa-phone {
-	color: #3e4e52;
+	color: #ffffff;
 	padding-right: 7px;
 	font-size: 17px;
 }
@@ -350,7 +356,7 @@ nav {
 	font-size: 18px;
 }
 .pre-nav-border-right {
-	border-right: 1px solid #808080;
+	border-right: 1px solid #ffffff;
 	padding-right: 10px;
 	margin-right: 10px;
 	display: inline-block;
@@ -398,12 +404,10 @@ nav {
 .boxed-btn:hover {
 	background-color: #ccac44;
 	color: #ffffff !important;
-	border: 1px solid black;
 }
 .boxed-btn-1:hover {
 	background-color: #ccac44;
 	color: #ffffff !important;
-	border: 1px solid black;
 }
 .btn-right-align {
 	margin-right: 15px;
@@ -637,6 +641,66 @@ nav {
 	padding: 20px 10px;
 	text-align: center;
 }
+.card-group {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #C1C9D2;
+	justify-content: center;
+}
+.card {
+	border: 3px solid#62A8DC;
+	margin-right: 30px;
+	max-width: 300px;
+}
+.card img {
+	backface-visibility: hidden;
+	transition: .5s ease;
+	height: 300px;
+}
+
+.card-body {
+	background-color: #1B374C;
+}
+.card-body h5 {
+	color: #62A8DC;
+}
+
+.card-text {
+	color: #ffffff;
+}
+.card .card-img-top {
+	background-color: #202020;
+}
+.card:hover .card-img-top {
+	opacity: 0.3;
+	background-color: #202020;
+  }
+
+  
+  .card:hover .overlay-img {
+	opacity: 1;
+  }
+.overlay-img img {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 150px;
+}
+.overlay-img {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .leadership-img {
+	  display: flex;
+	  justify-content: center;
+  }
+
+
 /*=================================== 11.TEAM AREA START ===================================*/
 
 /*============================= 12.SUBSCRIBE AREA START =============================*/
