@@ -646,7 +646,10 @@ nav {
 	padding-bottom: 30px;
 	background-color: #C1C9D2;
 	justify-content: center;
+	animation: slideInRight;
+	animation-duration: 2s;
 }
+  
 .card {
 	border: 3px solid#62A8DC;
 	margin-right: 30px;
@@ -700,6 +703,11 @@ nav {
 	  justify-content: center;
   }
 
+/* @media only screen and  (max-width: 320px){
+	.card-group {
+		justify-content: center;
+	}
+} */
 
 /*=================================== 11.TEAM AREA START ===================================*/
 
